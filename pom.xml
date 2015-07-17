@@ -242,6 +242,7 @@
         <module>jtstand-demo</module>
     </modules>
     <distributionManagement>
+        <!--
         <snapshotRepository>
             <id>jvnet-nexus-snapshots</id>
             <name>Java.net Nexus Snapshots Repository</name>
@@ -251,6 +252,17 @@
             <id>jvnet-nexus-staging</id>
             <name>Java.net Nexus Staging Repository</name>
             <url>https://maven.java.net/service/local/staging/deploy/maven2/</url>
+        </repository>
+        -->
+        <snapshotRepository>
+            <id>jtstand.sonatype.org</id>
+            <name>Sonatype Snapshot Deployment</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>jtstand.sonatype.org.release</id>
+            <name>Sonatype Release Deployment</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
         <site>
             <id>jtstand.kenai.com</id>
