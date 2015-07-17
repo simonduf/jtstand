@@ -86,7 +86,7 @@
     <scm>
         <connection>scm:svn:https://svn.java.net/svn/jtstand-project~jtstand/jtstand/trunk/</connection>
         <developerConnection>scm:svn:https://svn.java.net/svn/jtstand-project~jtstand/jtstand/trunk/</developerConnection>
-        <url>https://svn.java.net/svn/jtstand-project~jtstand/jtstand/trunk/</url>
+        <url>https://java.net/projects/jtstand-project/sources/jtstand/show/jtstand/trunk</url>
     </scm>
     <organization>
         <name>jtstand.com</name>
@@ -234,8 +234,6 @@
     </dependencyManagement>
     <modules>
         <module>jtstand-core</module>
-        <!--module>jtstand-common</module>
-        <module>jtstand-chart</module-->
         <module>jtstand-editor</module>
         <module>jtstand-ui</module>
         <module>jtstand-admin-ui</module>
@@ -244,20 +242,19 @@
         <module>jtstand-demo</module>
     </modules>
     <distributionManagement>
-        <repository>
-            <id>jtstand.codehaus.org</id>
-            <name>JTStand Release Repository</name>
-            <url>dav:https://dav.codehaus.org/repository/jtstand/</url>
-        </repository>
         <snapshotRepository>
-            <id>jtstand.codehaus.org</id>
-            <uniqueVersion>false</uniqueVersion>
-            <name>JTStand Snapshots Repository</name>
-            <url>dav:https://dav.codehaus.org/snapshots.repository/jtstand/</url>
+            <id>jvnet-nexus-snapshots</id>
+            <name>Java.net Nexus Snapshots Repository</name>
+            <url>https://maven.java.net/content/repositories/snapshots/</url>
         </snapshotRepository>
+        <repository>
+            <id>jvnet-nexus-staging</id>
+            <name>Java.net Nexus Staging Repository</name>
+            <url>https://maven.java.net/service/local/staging/deploy/maven2/</url>
+        </repository>
         <site>
-            <id>jtstand.codehaus.org</id>
-            <url>dav:https://dav.codehaus.org/jtstand/</url>
+            <id>jtstand.kenai.com</id>
+            <url>dav:https://website.kenai.com/website/jtstand</url>
         </site>
     </distributionManagement>
     <properties>
