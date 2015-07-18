@@ -31,39 +31,9 @@
     </prerequisites>
     <issueManagement>
         <system>JIRA</system>
-        <url>http://jira.codehaus.org/browse/JTSTAND</url>
+        <url>https://java.net/jira/browse/JTSTAND_PROJECT</url>
     </issueManagement>
     <inceptionYear>2009</inceptionYear>
-    <mailingLists>
-        <mailingList>
-            <name>JTStand Users</name>
-            <post>user@jtstand.codehaus.org</post>
-            <subscribe>http://xircles.codehaus.org/lists/user@jtstand.codehaus.org/subscribe</subscribe>
-            <unsubscribe>http://xircles.codehaus.org/lists/user@jtstand.codehaus.org/unsubscribe</unsubscribe>
-            <archive>http://archive.codehaus.org/lists/org.codehaus.jtstand.user</archive>
-        </mailingList>
-        <mailingList>
-            <name>JTStand Dev</name>
-            <post>dev@jtstand.codehaus.org</post>
-            <subscribe>http://xircles.codehaus.org/lists/dev@jtstand.codehaus.org/subscribe</subscribe>
-            <unsubscribe>http://xircles.codehaus.org/lists/dev@jtstand.codehaus.org/unsubscribe</unsubscribe>
-            <archive>http://archive.codehaus.org/lists/org.codehaus.jtstand.dev</archive>
-        </mailingList>
-        <mailingList>
-            <name>JTStand SCM</name>
-            <post>scm@jtstand.codehaus.org</post>
-            <subscribe>http://xircles.codehaus.org/lists/scm@jtstand.codehaus.org/subscribe</subscribe>
-            <unsubscribe>http://xircles.codehaus.org/lists/scm@jtstand.codehaus.org/unsubscribe</unsubscribe>
-            <archive>http://archive.codehaus.org/lists/org.codehaus.jtstand.scm</archive>
-        </mailingList>
-        <mailingList>
-            <name>JTStand Announce</name>
-            <post>announce@jtstand.codehaus.org</post>
-            <subscribe>http://xircles.codehaus.org/lists/announce@jtstand.codehaus.org/subscribe</subscribe>
-            <unsubscribe>http://xircles.codehaus.org/lists/announce@jtstand.codehaus.org/unsubscribe</unsubscribe>
-            <archive>http://archive.codehaus.org/lists/org.codehaus.jtstand.announce</archive>
-        </mailingList>
-    </mailingLists>
     <developers>
         <developer>
             <id>albert_kurucz</id>
@@ -255,7 +225,7 @@
         </repository>
         -->
         <snapshotRepository>
-            <id>jtstand.sonatype.org</id>
+            <id>jtstand.sonatype.org.snapshots</id>
             <name>Sonatype Snapshot Deployment</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
         </snapshotRepository>
