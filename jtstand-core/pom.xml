@@ -178,6 +178,12 @@
     </build>
     <dependencies>
         <dependency>
+            <artifactId>jboss-logging</artifactId>
+            <groupId>org.jboss.logging</groupId>
+            <type>jar</type>
+            <version>3.3.0.Final</version>
+        </dependency>
+        <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>4.1.12.Final</version>
@@ -241,6 +247,21 @@
             <artifactId>h2</artifactId>
             <!--version>1.2.126</version-->
             <version>1.4.187</version>
+        </dependency>
+        <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna-platform</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+        <dependency>           
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch.agentproxy.svnkit-trilead-ssh2</artifactId>
+            <version>0.0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.trilead</groupId>
+            <artifactId>trilead-ssh2</artifactId>
+            <version>1.0.0-build219</version>
         </dependency>
         <dependency>
             <groupId>org.tmatesoft.svnkit</groupId>
