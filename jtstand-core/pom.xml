@@ -91,10 +91,10 @@
                     </dependency-->
                 </dependencies>
             </plugin>
-            <!--plugin>
+            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>jaxb2-maven-plugin</artifactId>
-                <version>1.5</version>
+                <version>1.6</version>
                 <executions>
                     <execution>
                         <goals>
@@ -106,10 +106,25 @@
                                 <include>com/jtstand/*.java</include>
                             </includes>
                             <outputDirectory>${project.build.directory}/schema</outputDirectory>
+                            <schemaSourceExcludeFilters>
+                                <myExcludes implementation="org.codehaus.mojo.jaxb2.shared.filters.pattern.PatternFileFilter">
+                                    <patterns>
+                                        <pattern>jaxb\.index</pattern>
+                                        <pattern>\.txt</pattern>
+                                        <pattern>.*.png</pattern>
+                                    </patterns>
+                                </myExcludes>
+                            </schemaSourceExcludeFilters>
+                            <!--schemas>
+                                <schema>
+                                    <namespace>http://com.calderoni.max.code</namespace>
+                                    <file>config.xsd</file>
+                                </schema>
+                            </schemas-->
                         </configuration>
                     </execution>
                 </executions>
-            </plugin-->
+            </plugin>
             <!--plugin>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <version>1.3</version>

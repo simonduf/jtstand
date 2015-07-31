@@ -1,0 +1,24 @@
+
+# /
+/target
+
+# /jtstand-admin-ui/
+/jtstand-admin-ui/target
+
+# /jtstand-core/
+/jtstand-core/target
+
+# /jtstand-demo/
+/jtstand-demo/target
+
+# /jtstand-editor/
+/jtstand-editor/target
+
+# /jtstand-label/
+/jtstand-label/target
+
+# /jtstand-smtp/
+/jtstand-smtp/target
+
+# /jtstand-ui/
+/jtstand-ui/target
